@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* color: #fff; */
+    background: #17c0eb;
+}
+
+h3 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.box {
+    width: 200px;
+    padding: 5px 20px;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #bad4f3;
+    background: #fff;
+}
+
+.level {
+    background: #18dcff;
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+}
+
+.charge_state {
+    color: #1dd1a1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.level i,
+.charge_state i,
+.info_area i {
+    font-size: 19px;
+    margin: 0 12px 0 0;
+}
+
+.level i,
+.charge_state i {
+    transform: rotate(-90deg);
+}
+
+hr {
+    height: 1px;
+    color: #c8d6e5;
+    border-style: dashed;
+}
+
+.info_area {
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
